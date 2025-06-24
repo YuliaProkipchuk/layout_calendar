@@ -15,7 +15,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: $gap;
-  width: $columns * $size + $gap * ($columns-1) + $padding * 2;
+  width: $columns * $size + $gap * ($columns - 1) + $padding * 2;
   padding: $padding;
 
   @each $name, $value in $start-day {
